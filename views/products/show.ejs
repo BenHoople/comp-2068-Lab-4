@@ -1,0 +1,14 @@
+<%- include ('../partials/header') %>
+
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="<%= product.image %>" alt="They haven't uploaded a photo yet">
+  <div class="card-body">
+    <h5 class="card-title"><%= product.name %></h5>
+    <p class="card-text"><%= product.Description %></p>
+    <a href="#" class="btn btn-primary">$<%= product.price %>.00</a>
+  </div>
+</div>
+
+
+<%- include ('../partials/footer') %>
